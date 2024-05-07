@@ -1,0 +1,63 @@
+/*----------------------
+    List Style  
+------------------------*/
+
+.list-style--1 {
+    @extend %liststyle;
+    li {
+        color: var(--color-gray);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: inherit;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        i {
+            display: flex;
+        }
+        i,
+        svg {
+            color: var(--color-primary);
+            margin-right: 5px;
+        }
+    }
+    &.text-white {
+        li {
+            color: #ffffff;
+        }
+    }
+    svg {
+        width: 16px;
+        height: 16px;
+    }
+}
+
+ul {
+    &.list-style {
+        @extend %liststyle;
+        li {
+            position: relative;
+            padding-left: 16px;
+            color: var(--color-gray);
+            font-size: 18px;
+            line-height: 25px;
+            @media #{$sm-layout} {
+                font-size: 16px;
+                line-height: 22px;
+            }
+            &::before {
+                position: absolute;
+                width: 6px;
+                height: 6px;
+                background: var(--color-gray);
+                left: 0;
+                top: 10px;
+                content: "";
+                border-radius: 100%;
+            }
+            &+li {
+                margin-top: 10px;
+            }
+        }
+    }
+}

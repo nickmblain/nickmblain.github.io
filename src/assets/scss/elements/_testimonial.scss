@@ -1,0 +1,328 @@
+/* ---------------------------
+Testimonial Styles 
+------------------------------*/
+
+
+/*-----------------------------
+    Testminial Tab Content  
+--------------------------------*/
+
+.rn-testimonial-content {
+    position: relative;
+    text-align: center;
+    .inner {
+        padding-bottom: 20px;
+        p {
+            font-size: 30px;
+            line-height: 48px;
+            color: #18181b;
+            font-weight: 500;
+            margin-bottom: 0;
+            position: relative;
+            z-index: 2;
+            @media #{$lg-layout} {
+                font-size: 24px;
+                line-height: 44px;
+            }
+            @media #{$md-layout} {
+                font-size: 28px;
+                line-height: 48px;
+            }
+            @media #{$sm-layout} {
+                font-size: 18px !important;
+                line-height: 34px !important;
+                font-weight: 400;
+            }
+        }
+    }
+    .author-info {
+        h6 {
+            font-size: 18px;
+            line-height: 50px;
+            color: #323232;
+            font-weight: 300;
+            @media #{$sm-layout} {
+                line-height: 20px;
+                font-size: 14px;
+            }
+            span {
+                color: var(--color-primary);
+                text-transform: uppercase;
+                font-weight: 500;
+            }
+        }
+    }
+    .tesimonail-conent-inner {
+        &::before {
+            position: absolute;
+            width: 177px;
+            height: 100%;
+            left: -55px;
+            top: -70px;
+            background-image: url(../images/client/image-1.png);
+            content: "";
+            opacity: 1;
+            background-repeat: no-repeat;
+            z-index: 1;
+            @media #{$lg-layout} {
+                left: 0;
+            }
+            @media #{$md-layout} {
+                left: 0;
+                top: 0;
+            }
+            @media #{$sm-layout} {
+                top: -15px;
+                background-size: 100px;
+                left: 50%;
+                right: 0;
+                width: 100%;
+                margin-left: -48px;
+            }
+        }
+    }
+    .v-card__text {
+        padding: 5px 0;
+        text-align: left;
+        position: relative;
+        @media #{$md-layout} {
+            text-align: center;
+        }
+        @media #{$sm-layout} {
+            text-align: center;
+        }
+    }
+}
+
+.rn-testimonial-light {
+    .rn-testimonial-content {
+        .inner {
+            p {
+                color: #c6c9d8;
+            }
+        }
+        .author-info {
+            h6 {
+                color: #ffffff;
+                span {
+                    color: #c6c9d8;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}
+
+.rn-paralax-testimonial {
+    .rn-testimonial-content {
+        .inner {
+            p {
+                color: #ffffff;
+                &::before,
+                &::after {
+                    opacity: 0.1;
+                }
+            }
+        }
+    }
+}
+
+
+/* ------------------------------
+Testimonial Thumbnail 
+-------------------------------- */
+
+.rn-testimonial-area {
+    ul {
+        &.testimonial-thumb-wrapper {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            max-width: 510px;
+            margin: 0px auto;
+            margin-bottom: -30px;
+            outline: none;
+            border: 0 none;
+            position: relative;
+            >li {
+                padding-left: 15px;
+                padding-right: 15px;
+                flex-basis: 20%;
+                margin-bottom: 30px;
+                outline: none;
+                cursor: pointer;
+                @media #{$sm-layout} {
+                    flex-basis: 20%;
+                    margin-bottom: 14px;
+                    padding-left: 7px;
+                    padding-right: 7px;
+                }
+                @media #{$large-mobile} {
+                    flex-basis: 25%;
+                    padding-left: 5px;
+                    padding-right: 5px;
+                    margin-bottom: 10px;
+                }
+                .thumb {
+                    position: relative;
+                    display: inline-block;
+                    width: 100%;
+                    img {
+                        transition: all 0.3s;
+                        border-radius: 6px;
+                        width: 100%;
+                    }
+                }
+                >a {
+                    position: relative;
+                    display: block;
+                    &.active {
+                        .thumb {
+                            img {
+                                transform: scale(1.1);
+                                object-fit: contain;
+                                box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.1);
+                                
+                            }
+                        }
+                    }
+                    &:hover {
+                        .thumb {
+                            img {
+                                transform: scale(1.1);
+                                object-fit: contain;
+                                box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.1);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // vuetify tab
+    .v-tabs-bar {
+        height: auto;
+    }
+    .theme--light.v-card,
+    .theme--light.v-tabs>.v-tabs-bar,
+    .theme--light.v-tabs-items,
+    .theme--light.v-toolbar.v-sheet {
+        background: transparent;
+        box-shadow: none;
+    }
+    .v-toolbar.tab-toolbar,
+    .v-toolbar__content,
+    .v-toolbar__extension {
+        height: auto!important;
+        box-shadow: none;
+    }
+    .v-toolbar__content,
+    .v-toolbar__extension {
+        padding: 0;
+    }
+    .v-slide-group__wrapper {
+        contain: initial;
+        overflow: initial;
+    }
+    .v-window {
+        overflow: initial;
+        position: relative;
+        z-index: 2;
+    }
+    .v-slide-group__content {
+        flex: 0 0 560px;
+        white-space: pre-wrap;
+        justify-content: center;
+        flex-wrap: wrap;
+        transform: none!important;
+        @media #{$sm-layout} {
+            flex: 0 0 100%;
+        }
+    }
+    .v-slide-group__wrapper {
+        justify-content: center;
+    }
+    .v-tab {
+        padding: 0;
+        min-width: auto;
+        margin: 0 13px 26px 13px !important;
+        @media #{$sm-layout} {
+            margin: 0 5px 5px 5px !important;
+        }
+        .thumb {
+            position: relative;
+            display: flex;
+            img {
+                max-height: 140px;
+                min-height: 140px;
+                transition: all 0.3s;
+                @media #{$sm-layout} {
+                    max-height: 100px;
+                    min-height: 100px;
+                }
+                @media #{$small-mobile} {
+                    max-height: 85px;
+                    min-height: 85px;
+                }
+            }
+            &::after {
+                position: absolute;
+                content: "";
+                left: 0;
+                top: 0;
+                background-color: rgba(255, 255, 255, 0.5);
+                width: 100%;
+                height: 100%;
+                z-index: 1;
+                cursor: pointer;
+                border-radius: 6px;
+                transition: 0.3s;
+            }
+        }
+        .v-image {
+            transition: .3s;
+            border-radius: 6px;
+        }
+        &.v-tab--active {
+           
+            .thumb {
+                &::after {
+                    background-color: rgba(255, 255, 255, 0);
+                }
+                .v-image {
+                    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.1);
+                }
+                img {
+                    transform: scale(1.1);
+                    @media #{$sm-layout} {
+                        transform: scale(1);
+                    }
+                }
+            }
+        }
+        &:hover {
+            .thumb {
+                .v-image {
+                    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.1);
+                }
+            }
+        }
+    }
+    .v-slide-group__next,
+    .v-slide-group__prev {
+        display: none;
+    }
+    .v-tabs.v-tabs--centered.theme--light {
+        margin-bottom: -26px;
+    }
+}
+
+.active-dark {
+    .rn-testimonial-content::before,
+    .rn-testimonial-content::after {
+        display: none;
+    }
+}
