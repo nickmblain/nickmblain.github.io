@@ -206,6 +206,6 @@ export default {
 }
 
 .bg_image--16 {
-  background-image: url("https://imroz.ibthemespro.com/img/bg-image-28.5027ada3.jpg");
+  background-image: url("../../assets/images/header-bg.jpg");
 }
 </style>
