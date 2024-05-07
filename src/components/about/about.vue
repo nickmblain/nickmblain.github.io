@@ -5,11 +5,11 @@
                 <div class="grid lg:grid-cols-12 md:grid-cols-2 grid-cols-1 items-center gap-[30px]">
                     <div class="lg:col-span-5 lg:px-8 wow animate__animated animate__bounceInLeft" data-wow-delay=".3s">
                         <div class="relative">
-                            <div class="absolute inset-0 border dark:border-gray-800 rounded-full -mt-[10px] -ms-3 h-[100%] w-[100%] -z-1"></div>
+                            <div class="absolute about-img inset-0 border dark:border-gray-800 rounded-full -mt-[10px] -ms-3 h-[100%] w-[100%] -z-1"></div>
                             <img src="../../assets/images/ab1.png" class="rounded-full shadow-md shadow-gray-200 dark:shadow-gray-800" alt="">
 
                             <div class="absolute lg:bottom-20 md:bottom-10 bottom-6 ltr:lg:-right-16 rtl:lg:-left-16 ltr:md:-right-8 rtl:md:-left-8 ltr:right-0 rtl:left-0 p-4 rounded-lg shadow-md dark:shadow-gray-800 bg-white dark:bg-slate-900 m-3 w-44 text-center">
-                                <h6 class="font-semibold">Web Developer</h6>
+                                <h6 class="font-semibold">Front End Web Developer</h6>
                                 <span class="text-2xl font-medium text-amber-500 mb-0 flex justify-center">
                                 <count-up class="counter-value font-bold" :start-val="1"
                                     :end-val="12"></count-up>+<span class="text-sm text-slate-400 mt-3 ml-1"> Years</span></span>
@@ -20,9 +20,9 @@
 
                     <div class="lg:col-span-7">
                         <div class="lg:ms-5 wow animate__animated animate__bounceInRight" data-wow-delay=".7s">
-                            <h3 class="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">I'm a Passionate Web Designer</h3>
+                            <h3 class="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">Real world experience.</h3>
 
-                            <p class="text-slate-400 max-w-xl text-[15px]">I'm a Web Designer and Web Developer with over 12 years of experience. Experienced with all stages of the development cycle.
+                            <p class="text-slate-400 max-w-xl text-[15px]">With over 12 years of experience in front-end development, I've advanced from Junior to Senior Developer, specializing in PCI-compliant websites. I've led major projects like corporate website redesigns and custom development, enhancing performance across various platforms. Proficient in Agile methodologies, I'm dedicated to mastering new technologies to create impactful web solutions. Outside work, I enjoy exploring nature and disconnecting from the digital world.
                             </p>
                         
                             <div class="mt-6">
@@ -67,49 +67,81 @@ import feather from 'feather-icons'
                     icon: 'monitor'
                 },
                 {
-                    name: 'Mac OS',
-                    icon: 'stop-circle'
+                    name: 'Nature',
+                    icon: 'sun'
                 },
                 {
-                    name: 'Cinema',
-                    icon: 'video'
+                    name: 'Traveling',
+                    icon: 'map-pin'
                 },
                 {
                     name: 'Coffee',
                     icon: 'coffee'
                 },
                 {
+                    name: 'Fishing',
+                    icon: 'navigation'
+                },
+                {
                     name: 'Music',
                     icon: 'music'
                 },
                 {
-                    name: 'Games',
-                    icon: 'watch'
+                    name: 'Vue.js',
+                    icon: 'server'
                 },
                 {
-                    name: 'Designing',
-                    icon: 'box'
+                    name: 'React',
+                    icon: 'server'
+                },
+                {
+                    name: 'Angular',
+                    icon: 'server'
+                },
+                {
+                    name: 'Snowboarding',
+                    icon: 'cloud-snow'
+                },
+                {
+                    name: 'Boating',
+                    icon: 'navigation'
+                },
+                {
+                    name: 'Camping',
+                    icon: 'cloud-snow'
                 },
                 {
                     name: 'Sports',
                     icon: 'target'
                 },
                 {
-                    name: 'Painting',
-                    icon: 'pen-tool'
+                    name: 'Windows',
+                    icon: 'monitor'
                 },
                 {
-                    name: 'Reading',
-                    icon: 'book'
+                    name: 'iOS',
+                    icon: 'smartphone'
                 },
                 {
                     name: 'Android',
                     icon: 'smartphone'
                 },
                 {
-                    name: 'Other Activity',
-                    icon: 'activity'
+                    name: 'Agile',
+                    icon: 'server'
                 },
+                {
+                    name: 'SCSS',
+                    icon: 'server'
+                },
+                {
+                    name: 'TypeScript',
+                    icon: 'server'
+                },
+                {
+                    name: 'JavaScript',
+                    icon: 'server'
+                }
             ]
             }
         },
@@ -124,5 +156,7 @@ import feather from 'feather-icons'
 </script>
 
 <style lang="scss" scoped>
-
+    .about-img {
+        background: linear-gradient(90deg, #f6ad55 0%, #f9d976 100%);
+    }
 </style>

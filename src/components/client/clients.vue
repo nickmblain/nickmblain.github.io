@@ -3,7 +3,7 @@
      <section class="relative md:py-24 py-16 bg-gray-50 dark:bg-slate-800" id="project">
             <div class="container">
                 <div class="grid grid-cols-1 pb-8 text-center wow animate__animated animate__fadeInUp" data-wow-delay=".1s">
-                    <h3 class="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">Client's Review</h3>
+                    <h3 class="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">Recommendations</h3>
 
                 </div><!--end grid-->
 
@@ -48,22 +48,22 @@ import { tns } from 'tiny-slider/src/tiny-slider';
             return {
                 clients:[
                     {
-                       image: require('../../assets/images/client/01.jpg'),
-                       desc: "I didn't know a thing about icon design until I read this book. Now I can create any icon I need in no time. Great resource!" ,
-                       name: 'Thomas Israel',
-                       position: 'Manager',
+                       image: "https://media.licdn.com/dms/image/D5603AQHhsDPH2XZtiA/profile-displayphoto-shrink_100_100/0/1696633052786?e=1720656000&v=beta&t=r5tmp8aS2IR2kFzqrPcix3t0z_XY_Ru7UJE9p499CaM",
+                       desc: "I had the pleasure of working alongside Nick Blain for 9 years at Children's Miracle Network Hospitals, where he progressed from a Junior Developer to a Level 3 Front End Developer. These promotions were well-earned. Nick's deep expertise in Content Management Systems, PHP, Laravel, WordPress, and front-end technologies like Vue and Angular has been instrumental in elevating our web initiatives." ,
+                       name: 'Jared Wall',
+                       position: 'Vice President of Project Management',
                     },
                     {
-                       image: require('../../assets/images/client/02.jpg'),
-                       desc: "There are so many things I had to do with my old software that I just don't do at all with Techwind. Suspicious but I can't say I don't love it." ,
-                       position: 'Manager',
-                       name: 'Barbara McIntosh',
+                       image: "https://media.licdn.com/dms/image/D5603AQF5Abl6lri7Xw/profile-displayphoto-shrink_100_100/0/1684257676451?e=1720656000&v=beta&t=_JmmnuDz51yIpKbpAWY-91RIeCyEVTOUXneneW8q9JE",
+                       desc: "I have had the pleasure of collaborating with Nick on several key projects, and I am consistently impressed by his exceptional skills and professionalism as a Frontend Developer with Children’s Miracle Network. Nick is not only talented in designing intuitive and visually appealing interfaces, but he also brings a level of dedication and innovation that sets him apart." ,
+                       position: 'Director of Product Management',
+                       name: 'Justin Jacobs',
                     },
                     {
-                       image: require('../../assets/images/client/03.jpg'),
-                       desc: "The best part about Techwind is every time I pay my employees, my bank balance doesn't go down like it used to. Looking forward to spending this extra cash when I figure out why my card is being declined." ,
-                       position: 'Manager',
-                       name: 'Carl Oliver',
+                       image: "https://media.licdn.com/dms/image/C4E03AQEFrQbpoUC_bg/profile-displayphoto-shrink_100_100/0/1600902741693?e=1720656000&v=beta&t=Q4KRwU447DjY3wB5PRGqeCH8dqWnD_wdXtkZJCfWGfY",
+                       desc: "Nick has been working as Wordpress, PHP and Front end developer at CMNH for over 11 years now. Having worked with him on many projects, I must admit He is a development guru. His work is always outstanding and He always goes the extra mile to ensure company standards, requirements and team needs are met. He is a go-to person when you are talking about Wordpress and in front end He is a well-versed developer, I've been working with him for around 4 years and He has demonstrated being highly-skilled, experienced, and helpful professional with a positive attitude. Working with Nick has been my pleasure and a great experience as I learned many things from him." ,
+                       position: 'Account & Senior Engineering Manager',
+                       name: 'Christian Torres',
                     },
                     {
                        image: require('../../assets/images/client/04.jpg'),

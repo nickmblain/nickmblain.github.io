@@ -57,9 +57,12 @@
                         <li class="nav-item ms-0 experience">
                             <a class="nav-link" href="#experience">Experience</a>
                         </li>
-                        <li class="nav-item ms-0 project">
+                        <li class="nav-item ms-0 recommendations">
+                            <a class="nav-link" href="#project">Recommendations</a>
+                        </li> 
+                        <!-- <li class="nav-item ms-0 project">
                             <a class="nav-link" href="#project">Projects</a>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
             </div>
@@ -99,8 +102,7 @@ import feather from 'feather-icons'
          }
     },
    mounted (){
-        feather.replace()
-        console.log(this.navclass);
+        feather.replace();
    },
     created () {
         window.addEventListener('scroll', this.handleScroll);

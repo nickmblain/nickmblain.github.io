@@ -12,13 +12,13 @@
                 <h4 class="font-bold lg:text-[40px] text-3xl lg:leading-normal leading-normal text-white my-4 wow animate__animated animate__fadeInUp"
                     data-wow-delay=".3s">Nick Blain</h4>
                 <p class="text-white/50 max-w-xl mx-auto wow animate__animated animate__fadeInUp" data-wow-delay=".5s">
-                    I'm a Web Developer with over 12 years of
+                    I'm a Front End Web Developer with over 12 years of
                     experience. Experienced with all stages of development.</p>
 
                 <div class="mt-6 wow animate__animated animate__fadeInUp" data-wow-delay=".7s">
-                    <a href=""
+                    <a target="_blank" href="https://www.dropbox.com/scl/fi/jylwzfdvlf74hm0dxz2o0/NicholasBlainResume.pdf?rlkey=a8whx7lf7j2a7j4y282pep6ir&st=0mla5id1&dl=0"
                         class="btn rounded-md bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white"
-                        type="submit">Hire me</a>
+                        type="submit">Download Resume</a>
                 </div>
             </div>
         </div><!--end container-->
@@ -27,16 +27,16 @@
     <about />
     <services />
     <experience />
-    <projects />
+    <!-- <projects /> -->
     <client />
 </template>
 
 <script>
 import navbar from '@/components/navbar/navbar.vue'
-import about from '@/components/about/about-animation.vue';
-import experience from '@/components/experience/experience-animation.vue';
-import projects from '@/components/project/projects-animation.vue';
-import client from '@/components/client/clients-animation.vue';
+import about from '@/components/about/about.vue';
+import experience from '@/components/experience/experience.vue';
+// import projects from '@/components/project/projects.vue';
+import client from '@/components/client/clients.vue';
 export default {
     name: 'index',
     data() {
@@ -48,7 +48,7 @@ export default {
         navbar,
         about,
         experience,
-        projects,
+        // projects,
         client,
     },
     
