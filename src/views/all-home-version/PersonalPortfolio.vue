@@ -18,7 +18,7 @@
                 <span class="theme-gradient font-500">Front End Developer</span>
                 <h1 class="heading-title">Hello, I’m <span>Nick.</span></h1>
                 <p class="description">
-                  I’m working on a professional, visually sophisticated and
+                  Work in progress... I’m working on a professional, visually sophisticated and
                   technologically <br />
                   proficient, responsive and multi-functional Vue portfolio.
                 </p>
