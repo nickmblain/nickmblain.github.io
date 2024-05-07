@@ -1,0 +1,60 @@
+{
+  "name": "dennis",
+  "version": "1.0.0",
+  "description": "Dennis - Vues Js Personal Portfolio Template",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@tailwindcss/forms": "^0.5.7",
+    "core-js": "^3.8.3",
+    "feather-icons": "^4.29.1",
+    "sass": "^1.72.0",
+    "sass-loader": "^14.1.1",
+    "tiny-slider": "^2.9.4",
+    "v-wow": "github:guisoares2011/vue-wow",
+    "vue": "^3.2.13",
+    "vue-countup-v3": "^1.4.1",
+    "vue-easy-lightbox": "^1.19.0",
+    "vue-router": "^4.0.13",
+    "vue-typewriter-effect": "^1.0.1",
+    "wow.js": "^1.2.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "autoprefixer": "^10.4.17",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {
+      "vue/multi-word-component-names": "off"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
