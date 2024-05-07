@@ -35,9 +35,7 @@
                     </ul>
                     <ul class="list-none menu-social mb-0" :class="socialLight === false ? '' : 'hidden'">
                         <li class="inline">
-                            <a href="" class="btn btn-icon btn-sm rounded-full bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white"><i class="uil uil-dribbble align-middle"></i></a>
-                            <a href="" class="mx-1 btn btn-icon btn-sm rounded-full bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white"><i class="uil uil-behance align-middle"></i></a>
-                            <a href="" class="btn btn-icon btn-sm rounded-full bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white"><i class="uil uil-instagram align-middle"></i></a>
+                            <a href="https://www.linkedin.com/in/nicholas-blain-09110b41/" class="btn btn-icon btn-sm rounded-full bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white"><i class="uil uil-linkedin align-middle"></i></a>
                         </li>
                     </ul>
                     <!-- Navbar Collapse Manu Button -->
@@ -56,20 +54,11 @@
                         <li class="nav-item ms-0 about">
                             <a class="nav-link" href="#about">About Me</a>
                         </li>
-                        <li class="nav-item ms-0 service">
-                            <a class="nav-link" href="#service">Services</a>
-                        </li>
                         <li class="nav-item ms-0 experience">
                             <a class="nav-link" href="#experience">Experience</a>
                         </li>
                         <li class="nav-item ms-0 project">
                             <a class="nav-link" href="#project">Projects</a>
-                        </li>
-                        <li class="nav-item ms-0 blog">
-                            <a class="nav-link" href="#blog">Blogs</a>
-                        </li>
-                        <li class="nav-item ms-0 contact" :class="navclass">
-                            <a class="nav-link" href="#contact">Contact Me</a>
                         </li>
                     </ul>
                 </div>

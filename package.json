@@ -1,7 +1,7 @@
 {
-  "name": "dennis",
+  "name": "nick-resume",
   "version": "1.0.0",
-  "description": "Dennis - Vues Js Personal Portfolio Template",
+  "description": "Nick - Online Resume",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",

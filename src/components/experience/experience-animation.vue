@@ -7,7 +7,6 @@
                 <div class="grid grid-cols-1 pb-8 text-center wow animate__animated animate__fadeInUp" data-wow-delay=".1s">
                     <h3 class="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">Work Experience</h3>
 
-                    <p class="text-slate-400 max-w-xl mx-auto text-[15px]">Obviously I'm a Web Designer. Web Developer with over 7 years of experience. Experienced with all stages of the development.</p>
                 </div><!--end grid-->
 
                 <div class="grid grid-cols-1 mt-8">
