@@ -1,39 +1,16 @@
-import Vue from 'vue'
-import VueRouter from 'vue-router'
-import goTo from 'vuetify/es5/services/goto'
+import { createWebHistory, createRouter } from "vue-router";
 
-Vue.use(VueRouter)
+const routes = [
+  {
+    path: "/",
+    name: "index",
+    component: () => import('@/pages/index.vue'),
+  },
+];
 
-const routes = [{
-        path: '/',
-        component: () =>
-            import ('../views/PersonalPortfolio.vue'),
-        meta: {
-            title: 'Nicks Portfolio'
-        }
-    }
-]
+const router = createRouter({
+  history: createWebHistory(),
+  routes,
+});
 
-const router = new VueRouter({
-    mode: 'history',
-    routes,
-    scrollBehavior: (to, from, savedPosition) => {
-        let scrollTo = 0
-
-        if (to.hash) {
-            scrollTo = to.hash
-        } else if (savedPosition) {
-            scrollTo = savedPosition.y
-        }
-
-        return goTo(scrollTo)
-    },
-})
-
-router.beforeEach((to, from, next) => {
-    document.title = to.meta.title
-    next()
-})
-
-
-export default router
+export default router;

@@ -1,0 +1,26 @@
+/* Template Name:  Nick - Online Resume
+   Version: 1.0.0
+   Created: May 2024
+   File: Main Css File
+*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// FONTS
+@import "custom/fonts";
+
+// general
+@import "custom/general";
+
+// components
+@import "components/buttons";
+
+// structure
+@import "custom/structure/topnav";
+@import "custom/structure/footer";
+
+// pages
+@import "custom/pages/helper";
+@import "custom/pages/contact";

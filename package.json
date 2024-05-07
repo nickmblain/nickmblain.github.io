@@ -1,36 +1,60 @@
 {
-  "name": "nb-resume",
+  "name": "nick-resume",
   "version": "1.0.0",
+  "description": "Nick - Online Resume",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "core-js": "^3.6.5",
-    "feather-icons": "^4.28.0",
-    "vee-validate": "^3.4.5",
-    "vue": "^2.6.11",
-    "vue-cool-lightbox": "^2.7.0",
-    "vue-count-to": "^1.0.13",
-    "vue-particles": "^1.0.9",
-    "vue-router": "^3.2.0",
-    "vue-scrollactive": "^0.9.3",
-    "vue-slick-carousel": "^1.0.6",
-    "vue-visibility-sensor": "^0.3.0",
-    "vuetify": "^2.2.11"
+    "@tailwindcss/forms": "^0.5.7",
+    "core-js": "^3.8.3",
+    "feather-icons": "^4.29.1",
+    "sass": "^1.72.0",
+    "sass-loader": "^14.1.1",
+    "tiny-slider": "^2.9.4",
+    "v-wow": "github:guisoares2011/vue-wow",
+    "vue": "^3.2.13",
+    "vue-countup-v3": "^1.4.1",
+    "vue-easy-lightbox": "^1.19.0",
+    "vue-router": "^4.0.13",
+    "vue-typewriter-effect": "^1.0.1",
+    "wow.js": "^1.2.2"
   },
   "devDependencies": {
-    "@fortawesome/fontawesome-free": "^5.15.1",
-    "@mdi/font": "^5.9.55",
-    "@vue/cli-plugin-babel": "~4.5.0",
-    "@vue/cli-plugin-router": "~4.5.0",
-    "@vue/cli-plugin-vuex": "~4.5.0",
-    "@vue/cli-service": "~4.5.0",
-    "sass": "~1.32.12",
-    "sass-loader": "^8.0.2",
-    "vue-cli-plugin-vuetify": "~2.0.7",
-    "vue-template-compiler": "^2.6.11",
-    "vuetify-loader": "^1.3.0"
-  }
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "autoprefixer": "^10.4.17",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {
+      "vue/multi-word-component-names": "off"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
 }
