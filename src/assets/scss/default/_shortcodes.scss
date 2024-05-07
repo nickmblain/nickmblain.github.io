@@ -140,18 +140,6 @@ font-family: 'Poppins', sans-serif;
     @extend %bgImagePosition;
 }
 
-@for $i from 1 through 34 {
-    .bg_image--#{$i} {
-        background-image: url(../images/bg/bg-image-#{$i}.jpg);
-    }
-}
-
-@for $i from 1 through 80 {
-    .font--#{$i} {
-        font-size: #{$i}px !important;
-    }
-}
-
 p {
     font-size: 18px;
     line-height: 30px;
