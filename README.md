@@ -1,4 +1,4 @@
-# tailwind-demo
+# Nick's Github Pages Template
 
 ## Project setup
 ```
