@@ -37,6 +37,9 @@
                         <li class="inline">
                             <a href="https://www.linkedin.com/in/nicholas-blain-09110b41/" class="btn btn-icon btn-sm rounded-full bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white"><i class="uil uil-linkedin align-middle"></i></a>
                         </li>
+                        <li class="inline">
+                            <a href="https://github.com/nickmblain/nickmblain.github.io" class="btn btn-icon btn-sm rounded-full bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white"><i class="uil uil-github align-middle"></i></a>
+                        </li>
                     </ul>
                     <!-- Navbar Collapse Manu Button -->
                     <button data-collapse="menu-collapse" type="button" class="collapse-btn inline-flex items-center ms-2 text-dark dark:text-white lg_992:hidden" aria-controls="menu-collapse" aria-expanded="false" @click="handler">
