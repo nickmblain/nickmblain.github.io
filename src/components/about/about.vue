@@ -63,10 +63,6 @@ import feather from 'feather-icons'
                     icon: 'monitor'
                 },
                 {
-                    name: 'Nature',
-                    icon: 'sun'
-                },
-                {
                     name: 'Traveling',
                     icon: 'map-pin'
                 },

@@ -22,7 +22,7 @@
 
                                 <div class="ltr:float-left rtl:float-right text-start md:ms-8 mt-6 md:mt-0 wow animate__animated animate__fadeInUp" data-wow-delay=".5s">
                                     <h5 class="title mb-1 font-semibold">Front End Developer Level 3</h5>
-                                    <p class="mt-3 mb-0 text-slate-400 text-[15px]">Led the development of a comprehensive Vue.js design system, enhancing UI consistency and user experience through reusable components. Implemented Cypress for automated testing and Storybook for UI documentation, improving development efficiency and team collaboration.</p>
+                                    <p class="mt-3 mb-0 text-slate-400 text-[15px]">Participated in development of comprehensive Vue.js design system, enhancing UI consistency and user experience through reusable components. Implemented Cypress for automated testing and Storybook for UI documentation, improving development efficiency and team collaboration.</p>
                                 </div>
                             </div>
                         </div>
