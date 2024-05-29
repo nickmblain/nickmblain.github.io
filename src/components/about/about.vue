@@ -24,10 +24,6 @@
 
                             <p class="text-slate-400 max-w-xl text-[15px]">With over 12 years of experience in front-end development, I've advanced from Junior to Senior Developer, specializing in PCI-compliant websites. I've led major projects like corporate website redesigns and custom development, enhancing performance across various platforms. Proficient in Agile methodologies, I'm dedicated to mastering new technologies to create impactful web solutions. Outside work, I enjoy exploring nature and disconnecting from the digital world.
                             </p>
-                        
-                            <div class="mt-6">
-                                <a href="#project" class="btn bg-amber-500/10 hover:bg-amber-500 border-amber-500/10 hover:border-amber-500 text-amber-500 hover:text-white rounded-md me-2 mt-2">See Work</a>
-                            </div>
                         </div>
                     </div><!--end grid-->
                 </div><!--end grid-->
