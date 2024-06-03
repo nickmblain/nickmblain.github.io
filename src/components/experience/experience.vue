@@ -21,7 +21,7 @@
                                 </div>
 
                                 <div class="ltr:float-left rtl:float-right text-start md:ms-8 mt-6 md:mt-0 wow animate__animated animate__fadeInUp" data-wow-delay=".5s">
-                                    <h5 class="title mb-1 font-semibold">Front End Developer Level 3</h5>
+                                    <h5 class="title mb-1 font-semibold">Frontend Developer Level 3</h5>
                                     <p class="mt-3 mb-0 text-slate-400 text-[15px]">Participated in development of a comprehensive Vue.js design system, enhancing UI consistency and user experience through reusable components. Implemented Cypress for automated testing and Storybook for UI documentation, improving development efficiency and team collaboration.</p>
                                 </div>
                             </div>
@@ -38,7 +38,7 @@
                                 </div>
 
                                 <div class="ltr:float-left rtl:float-right md:text-end md:me-8 mt-6 md:mt-0 md:order-1 wow animate__animated animate__fadeInUp" data-wow-delay=".9s">
-                                    <h5 class="title mb-1 font-semibold">Senior Front End Developer</h5>
+                                    <h5 class="title mb-1 font-semibold">Senior Frontend Developer</h5>
                                     <p class="mt-3 mb-0 text-slate-400 text-[15px]">Developed a custom WordPress theme and plugins for our corporate website, aligning with our brand identity and enhancing user functionality for fundraisers and donations. Prioritized accessibility, adhering to best practices ensuring usability for people with diverse disabilities, thereby expanding our reach and underscoring our commitment to inclusivity.</p>
                                 </div>
                             </div>
@@ -55,7 +55,7 @@
                                 </div>
 
                                 <div class="ltr:float-left rtl:float-right text-start md:ms-8 mt-6 md:mt-0 wow animate__animated animate__fadeInUp" data-wow-delay="1.3s">
-                                    <h5 class="title mb-1 font-semibold">Junior Front End Developer</h5>
+                                    <h5 class="title mb-1 font-semibold">Junior Frontend Developer</h5>
                                     <p class="mt-3 mb-0 text-slate-400 text-[15px]">Maintained the front end of over 50 applications, ensuring smooth functionality and modern design standards. Led redesigns of our report application and internal portal, enhancing aesthetics and aligning functionality with user needs to optimize workflow and accessibility. These efforts improved internal user efficiency and contributed to a cohesive digital environment.</p>
                                 </div>
                             </div>
@@ -72,7 +72,7 @@
                                 </div>
 
                                 <div class="ltr:float-left rtl:float-right md:text-end md:me-8 mt-6 md:mt-0 md:order-1 wow animate__animated animate__fadeInUp" data-wow-delay="1.7s">
-                                    <h5 class="title mb-1 font-semibold">Front End Developer</h5>
+                                    <h5 class="title mb-1 font-semibold">Frontend Developer</h5>
                                     <p class="mt-3 mb-0 text-slate-400 text-[15px]">Upgraded website themes from outdated table-based layouts to modern HTML5, enhancing aesthetic appeal and technical robustness. This shift to flexible, semantic HTML5 elements improved accessibility, responsiveness across devices, and SEO optimization. The upgrades ensured compliance with current web standards and enhanced user experience across platforms.</p>
                                 </div>
                             </div>

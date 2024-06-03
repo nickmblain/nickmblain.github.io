@@ -12,7 +12,7 @@
                 <h4 class="font-bold lg:text-[40px] text-3xl lg:leading-normal leading-normal text-white my-4 wow animate__animated animate__fadeInUp"
                     data-wow-delay=".3s">Nick Blain</h4>
                 <p class="text-white/50 max-w-xl mx-auto wow animate__animated animate__fadeInUp" data-wow-delay=".5s">
-                    I'm a Front End Web Developer with over 12 years of
+                    I'm a Frontend Web Developer with over 12 years of
                     experience. Experienced with all stages of development.</p>
 
                 <div class="mt-6 wow animate__animated animate__fadeInUp" data-wow-delay=".7s">

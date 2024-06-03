@@ -9,7 +9,7 @@
                             <img src="../../assets/images/ab1.png" class="rounded-full shadow-md shadow-gray-200 dark:shadow-gray-800" alt="">
 
                             <div class="absolute lg:bottom-20 md:bottom-10 bottom-6 ltr:lg:-right-16 rtl:lg:-left-16 ltr:md:-right-8 rtl:md:-left-8 ltr:right-0 rtl:left-0 p-4 rounded-lg shadow-md dark:shadow-gray-800 bg-white dark:bg-slate-900 m-3 w-44 text-center">
-                                <h6 class="font-semibold">Front End Web Developer</h6>
+                                <h6 class="font-semibold">Frontend Web Developer</h6>
                                 <span class="text-2xl font-medium text-amber-500 mb-0 flex justify-center">
                                 <count-up class="counter-value font-bold" :start-val="1"
                                     :end-val="12"></count-up>+<span class="text-sm text-slate-400 mt-3 ml-1"> Years</span></span>
