@@ -65,25 +65,6 @@ import { tns } from 'tiny-slider/src/tiny-slider';
                        position: 'Account & Senior Engineering Manager',
                        name: 'Christian Torres',
                     },
-                    {
-                       image: require('../../assets/images/client/04.jpg'),
-                       desc: "I'm trying to get a hold of someone in support, I'm in a lot of trouble right now and they are saying it has something to do with my books. Please get back to me right away." ,
-                       position: 'Manager',
-                       name: 'Jill Webb',
-                    },
-                    {
-                       image: require('../../assets/images/client/05.jpg'),
-                       desc: "I used to have to remit tax to the EU and with Techwind I somehow don't have to do that anymore. Nervous to travel there now though." ,
-                       position: 'Manager',
-                       name: 'Barbara McIntosh',
-                    },
-                    {
-                       image: require('../../assets/images/client/06.jpg'),
-                       desc: "This is the fourth email I've sent to your support team. I am literally being held in jail for tax fraud. Please answer your damn emails, this is important." ,
-                       position: 'Manager',
-                       name: 'Janisha Doll',
-                    },
-
                 ]
             }
         },
