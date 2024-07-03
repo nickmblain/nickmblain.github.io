@@ -27,7 +27,6 @@
     <about />
     <services />
     <experience />
-    <!-- <projects /> -->
     <client />
 </template>
 
@@ -35,7 +34,6 @@
 import navbar from '@/components/navbar/navbar.vue'
 import about from '@/components/about/about.vue';
 import experience from '@/components/experience/experience.vue';
-// import projects from '@/components/project/projects.vue';
 import client from '@/components/client/clients.vue';
 export default {
     name: 'index',
@@ -48,7 +46,6 @@ export default {
         navbar,
         about,
         experience,
-        // projects,
         client,
     },
     
