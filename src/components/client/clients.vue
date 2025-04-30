@@ -43,21 +43,21 @@ import { tns } from 'tiny-slider/src/tiny-slider';
             return {
                 clients:[
                     {
-                       image: "https://github.com/nickmblain/resume/blob/main/src/assets/images/recommendations/jared-wall.jpg",
+                       image: "src/assets/images/recommendations/jared-wall.jpg",
                        desc: "I had the pleasure of working alongside Nick Blain for 9 years at Children's Miracle Network Hospitals, where he progressed from a Junior Developer to a Level 3 Frontend Developer. These promotions were well-earned. Nick's deep expertise in Content Management Systems, PHP, Laravel, WordPress, and front-end technologies like Vue and Angular has been instrumental in elevating our web initiatives." ,
                        name: 'Jared Wall',
                        position: 'Vice President of Project Management',
                        url: 'https://www.linkedin.com/in/jaredwall/',
                     },
                     {
-                       image: "https://github.com/nickmblain/resume/blob/main/src/assets/images/recommendations/justin-jacobs.jpg",
+                       image: "src/assets/images/recommendations/justin-jacobs.jpg",
                        desc: "I have had the pleasure of collaborating with Nick on several key projects, and I am consistently impressed by his exceptional skills and professionalism as a Frontend Developer with Children’s Miracle Network. Nick is not only talented in designing intuitive and visually appealing interfaces, but he also brings a level of dedication and innovation that sets him apart." ,
                        position: 'Director of Product Management',
                        name: 'Justin Jacobs',
                        url: 'https://www.linkedin.com/in/justin-b-jacobs/',
                     },
                     {
-                       image: "https://github.com/nickmblain/resume/blob/main/src/assets/images/recommendations/christian-torres.png",
+                       image: "src/assets/images/recommendations/christian-torres.png",
                        desc: "Nick has been working as Wordpress, PHP and Frontend developer at CMNH for over 11 years now. Having worked with him on many projects, I must admit He is a development guru. His work is always outstanding and He always goes the extra mile to ensure company standards, requirements and team needs are met. He is a go-to person when you are talking about Wordpress and in front end. He is a well-versed developer, I've been working with him for around 4 years and He has demonstrated being highly-skilled, experienced, and helpful professional with a positive attitude. Working with Nick has been my pleasure and a great experience as I learned many things from him." ,
                        position: 'Account & Senior Engineering Manager',
                        name: 'Christian Torres',
