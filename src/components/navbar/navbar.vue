@@ -57,6 +57,9 @@
                         <li class="nav-item ms-0 about">
                             <a class="nav-link" href="#about">About Me</a>
                         </li>
+                        <li class="nav-item ms-0 about">
+                            <a class="nav-link" href="#projects">My Projects</a>
+                        </li>
                         <li class="nav-item ms-0 experience">
                             <a class="nav-link" href="#experience">Experience</a>
                         </li>

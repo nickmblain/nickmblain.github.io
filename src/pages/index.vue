@@ -26,6 +26,7 @@
     <!-- End Hero -->
     <about />
     <services />
+    <projects />
     <experience />
     <client />
 </template>
@@ -35,6 +36,7 @@ import navbar from '@/components/navbar/navbar.vue'
 import about from '@/components/about/about.vue';
 import experience from '@/components/experience/experience.vue';
 import client from '@/components/client/clients.vue';
+import projects from '@/components/projects/projects.vue';
 export default {
     name: 'index',
     data() {
@@ -47,6 +49,7 @@ export default {
         about,
         experience,
         client,
+        projects,
     },
     
 }
