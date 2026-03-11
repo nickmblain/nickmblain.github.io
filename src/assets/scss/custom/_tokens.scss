@@ -59,6 +59,13 @@
   // ── Motion ─────────────────────────────────────────────────────────────────
   --transition-base:  150ms ease;
   --transition-slow:  300ms ease;
+
+  // ── Gradients ──────────────────────────────────────────────────────────────
+  // Hero background overlay — lighter in dark so the tree image shows through
+  --color-hero-overlay: light-dark(rgb(15 23 42 / 0.44), rgb(15 23 42 / 0.10));
+
+  // Ambient accent glow used in section orbs
+  --gradient-amber-glow: light-dark(rgb(245 158 11 / 0.07), rgb(245 158 11 / 0.11));
 }
 
 // Activate dark color-scheme so light-dark() resolves to its second argument

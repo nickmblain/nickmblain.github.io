@@ -3,8 +3,8 @@
     <!-- Start Hero -->
     <section class="relative table w-full lg:py-60 bg-[url('../../assets/images/bg/bg3.jpg')] py-36 bg-no-repeat bg-center bg-cover" id="home">
        
-        <div class="absolute inset-0 bg-slate-900/40"></div>
-        <div class="container">
+        <div class="hero-overlay absolute inset-0"></div>
+<div class="container">
             <div class="grid grid-cols-1 text-center mt-5 relative">
                 <img src="../assets/images/hero/profile-pic.png"
                     class="rounded-full h-28 w-28 mx-auto wow animate__animated animate__fadeInUp" data-wow-delay=".1s"

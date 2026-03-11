@@ -1,0 +1,81 @@
+// ─────────────────────────────────────────────────────────────────────────────
+// Gradients & Ambient Decorations
+// ─────────────────────────────────────────────────────────────────────────────
+
+// ─── Hero ─────────────────────────────────────────────────────────────────────
+
+// Replaces bg-slate-900/40 — in dark mode the overlay is near-transparent so
+// the tree photograph reads strongly against the dark page.
+.hero-overlay {
+  background: var(--color-hero-overlay);
+
+  // Warm amber uplight in dark mode only — adds drama without obscuring image
+  &::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: light-dark(
+      transparent,
+      linear-gradient(to top, rgb(180 83 9 / 0.18) 0%, transparent 45%)
+    );
+    pointer-events: none;
+  }
+}
+
+//─── Ambient orb base ─────────────────────────────────────────────────────────
+
+%ambient-orb {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(88px);
+  pointer-events: none;
+  z-index: 0;
+}
+
+// ─── About section ────────────────────────────────────────────────────────────
+// Overflow is already hidden on this section so the orb gets clipped cleanly.
+
+#about {
+  &::before {
+    @extend %ambient-orb;
+    width: 520px;
+    height: 520px;
+    top: -60px;
+    right: -100px;
+    background: radial-gradient(circle, var(--gradient-amber-glow), transparent 70%);
+  }
+
+  &::after {
+    @extend %ambient-orb;
+    width: 360px;
+    height: 360px;
+    bottom: -80px;
+    left: -80px;
+    background: radial-gradient(circle, var(--gradient-amber-glow), transparent 70%);
+  }
+}
+
+// ─── Experience section ───────────────────────────────────────────────────────
+
+#experience {
+  overflow: hidden;
+
+  &::before {
+    @extend %ambient-orb;
+    width: 600px;
+    height: 600px;
+    bottom: -180px;
+    left: -140px;
+    background: radial-gradient(circle, var(--gradient-amber-glow), transparent 70%);
+  }
+
+  &::after {
+    @extend %ambient-orb;
+    width: 400px;
+    height: 400px;
+    top: -60px;
+    right: -80px;
+    background: radial-gradient(circle, var(--gradient-amber-glow), transparent 70%);
+  }
+}
