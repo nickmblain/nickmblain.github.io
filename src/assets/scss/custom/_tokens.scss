@@ -1,0 +1,67 @@
+// ─────────────────────────────────────────────────────────────────────────────
+// Design Tokens
+// Uses CSS light-dark() — responds to color-scheme set by .dark / .light class
+// ─────────────────────────────────────────────────────────────────────────────
+
+:root {
+  color-scheme: light;
+
+  // ── Backgrounds ────────────────────────────────────────────────────────────
+  --color-bg:         light-dark(#ffffff,  #0f172a); // page canvas
+  --color-bg-subtle:  light-dark(#f8fafc,  #1e293b); // cards, sections
+  --color-bg-surface: light-dark(#f1f5f9,  #293548); // inputs, chips
+
+  // ── Text ───────────────────────────────────────────────────────────────────
+  --color-text:        light-dark(#161c2d, #f1f5f9); // primary
+  --color-text-muted:  light-dark(#3c4858, #94a3b8); // secondary
+  --color-text-subtle: light-dark(#64748b, #64748b); // tertiary / captions
+
+  // ── Borders ────────────────────────────────────────────────────────────────
+  --color-border:        light-dark(#e2e8f0, #334155);
+  --color-border-subtle: light-dark(#f1f5f9, #1e293b);
+
+  // ── Accent (amber) ─────────────────────────────────────────────────────────
+  --color-accent:       #f59e0b; // same in both modes
+  --color-accent-hover: #d97706;
+  --color-accent-text:  #ffffff;
+
+  // ── Navigation ─────────────────────────────────────────────────────────────
+  --color-nav-bg:   light-dark(#ffffff, #0f172a);
+  --color-nav-text: light-dark(#3c4858, #f1f5f9);
+
+  // ── Footer ─────────────────────────────────────────────────────────────────
+  --color-footer-bg: light-dark(#192132, #020617);
+
+  // ── Shadows ────────────────────────────────────────────────────────────────
+  --shadow-sm:  light-dark(
+    0 2px 4px 0 rgb(60 72 88 / 0.15),
+    0 2px 4px 0 rgb(0 0 0 / 0.45)
+  );
+  --shadow-md:  light-dark(
+    0 5px 13px rgb(60 72 88 / 0.20),
+    0 5px 13px rgb(0 0 0 / 0.45)
+  );
+  --shadow-lg:  light-dark(
+    0 10px 25px -3px rgb(60 72 88 / 0.15),
+    0 10px 25px -3px rgb(0 0 0 / 0.40)
+  );
+
+  // ── Typography ─────────────────────────────────────────────────────────────
+  --font-family-base: 'Poppins', sans-serif;
+  --font-size-base:   0.9375rem; // 15px
+
+  // ── Radii ──────────────────────────────────────────────────────────────────
+  --radius-sm:   0.25rem;
+  --radius-md:   0.375rem;
+  --radius-lg:   0.5rem;
+  --radius-full: 9999px;
+
+  // ── Motion ─────────────────────────────────────────────────────────────────
+  --transition-base:  150ms ease;
+  --transition-slow:  300ms ease;
+}
+
+// Activate dark color-scheme so light-dark() resolves to its second argument
+.dark {
+  color-scheme: dark;
+}

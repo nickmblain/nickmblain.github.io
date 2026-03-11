@@ -15,7 +15,8 @@
                     <img src="../../assets/images/logo-light.png" class="hidden dark:inline-block" alt="">
                 </router-link>
                 
-                <div class="nav-icons flex items-center lg_992:order-2 ms-auto md:ms-8">
+                <div class="nav-icons flex items-center gap-2 lg_992:order-2 ms-auto md:ms-8">
+                    <ThemeToggle />
                     <!-- Navbar Button -->
                     <ul class="list-none menu-social mb-0 ml-2" :class="socialLight === true ? '' : 'hidden'">
                         <li class="inline">
@@ -78,6 +79,7 @@
 
 <script>
 import feather from 'feather-icons'
+import ThemeToggle from '@/components/ThemeToggle.vue'
    export default {
     props:{
         socialLight: {
@@ -95,6 +97,7 @@ import feather from 'feather-icons'
 
         
     },
+    components: { ThemeToggle },
     name: 'navBar',
     data() {
         return { 

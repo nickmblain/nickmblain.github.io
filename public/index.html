@@ -5,6 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <script>
+      // Apply saved or system theme before first paint to prevent flash
+      (function () {
+        var stored = localStorage.getItem('color-scheme');
+        var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        var dark = stored !== null ? stored === 'dark' : prefersDark;
+        document.documentElement.classList.toggle('dark', dark);
+        document.documentElement.classList.toggle('light', !dark);
+      })();
+    </script>
     <title>Nick.</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
