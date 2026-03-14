@@ -66,7 +66,10 @@
                         </li>
                         <li class="nav-item ms-0 recommendations">
                             <a class="nav-link" href="#project">Recommendations</a>
-                        </li> 
+                        </li>
+                        <li class="nav-item ms-0">
+                            <a class="nav-link" href="https://the-commit.netlify.app/" target="_blank" rel="noopener noreferrer">Blog</a>
+                        </li>
                         <!-- <li class="nav-item ms-0 project">
                             <a class="nav-link" href="#project">Projects</a>
                         </li> -->

@@ -16,7 +16,8 @@
 
                         <ul class="lg:col-span-4 list-none md:text-end text-center mt-6 md:mt-0">
                             <li class="inline"><a href="https://www.linkedin.com/in/nicholas-blain-09110b41/" target="_blank" class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-amber-500 dark:hover:border-amber-500 hover:bg-amber-500 dark:hover:bg-amber-500"><i class="uil uil-linkedin" title="Linkedin"></i></a></li>
-                            <li class="inline"><a href="https://github.com/nickmblain/nickmblain.github.io" target="_blank" class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-amber-500 dark:hover:border-amber-500 hover:bg-amber-500 dark:hover:bg-amber-500"><i class="uil uil-github" title="Linkedin"></i></a></li>
+                            <li class="inline"><a href="https://github.com/nickmblain/nickmblain.github.io" target="_blank" class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-amber-500 dark:hover:border-amber-500 hover:bg-amber-500 dark:hover:bg-amber-500"><i class="uil uil-github" title="GitHub"></i></a></li>
+                            <li class="inline"><a href="https://the-commit.netlify.app/" target="_blank" rel="noopener noreferrer" class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-amber-500 dark:hover:border-amber-500 hover:bg-amber-500 dark:hover:bg-amber-500"><i class="uil uil-rss" title="Blog"></i></a></li>
                         </ul><!--end icon-->
                     </div><!--end grid-->
                 </div><!--end container-->
