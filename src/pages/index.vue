@@ -16,7 +16,7 @@
                     experience. Experienced with all stages of development.</p>
 
                 <div class="mt-6 wow animate__animated animate__fadeInUp" data-wow-delay=".7s">
-                    <a target="_blank" href="https://www.dropbox.com/scl/fi/jylwzfdvlf74hm0dxz2o0/NicholasBlainResume.pdf?rlkey=a8whx7lf7j2a7j4y282pep6ir&st=0mla5id1&dl=0"
+                    <a target="_blank" href="https://www.dropbox.com/scl/fi/slhna18jcwvoxd94kxtxt/NicholasBlainResume.pdf?rlkey=tklzvque8aormam5s7se95y9y&st=lkxcoqjo&dl=0"
                         class="btn rounded-md bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white"
                         type="submit">Download Resume</a>
                 </div>
